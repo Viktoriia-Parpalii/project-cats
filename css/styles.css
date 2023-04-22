@@ -83,8 +83,8 @@ img {
   |============================
 */
 .hero .container {
-  padding-top: 236px;
-  padding-bottom: 52px;
+  position: relative;
+  height: 480px;
   width: 944px;
   background-image: url(../img/hero/picture\ 1.jpg);
   background-repeat: no-repeat;
@@ -93,7 +93,9 @@ img {
   border-radius: 16px;
 }
 .hero-div {
-  margin-left: 28px;
+  position: absolute;
+  left: 28px;
+  bottom: 52px;
   padding: 24px;
   width: 432px;
   background-color: var(--forest-green);
