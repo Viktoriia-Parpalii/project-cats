@@ -193,23 +193,24 @@ img {
 }
 .footer-second .list {
   display: flex;
-  gap: 32px;
+  gap: 8px;
 }
 .footer-second p {
+  text-align: right;
   margin-bottom: 8px;
 }
 .netvorcs-icon {
   color: var(--white);
+  padding: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 }
 .netvorcs-icon svg {
   fill: currentColor;
 }
 .netvorcs-icon:hover,
 .netvorcs-icon:focus {
-  padding: 8px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
   background-color: var(--white);
   color: var(--orange);
 }
